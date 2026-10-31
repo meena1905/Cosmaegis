@@ -1,5 +1,0 @@
-agent,collision_rate,near_miss_rate,avg_episode_length,avg_fuel_used
-baseline,0.09,0.2,182.265,253.9059
-risk_only,0.16,0.215,168.585,184.02658
-uncertainty_only,0.13,0.195,174.35,243.92404
-full (COSMAEGIS),0.12,0.16,176.255,243.405
