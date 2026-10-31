@@ -1,0 +1,24 @@
+Training PPO variant=uncertainty_only seed=2 steps=300000 dropout=0.2
+[uncertainty_only s2] rollout 10/146 | steps 20480 | train collisions (last 300 ep):   5.7% | std 0.610 | 23s
+[uncertainty_only s2] rollout 20/146 | steps 40960 | train collisions (last 300 ep):   6.0% | std 0.595 | 46s
+[uncertainty_only s2] rollout 30/146 | steps 61440 | train collisions (last 300 ep):   5.7% | std 0.584 | 70s
+[uncertainty_only s2] rollout 40/146 | steps 81920 | train collisions (last 300 ep):   4.0% | std 0.581 | 93s
+[uncertainty_only s2] rollout 50/146 | steps 102400 | train collisions (last 300 ep):   2.3% | std 0.560 | 116s
+[uncertainty_only s2] rollout 60/146 | steps 122880 | train collisions (last 300 ep):   1.7% | std 0.553 | 139s
+[uncertainty_only s2] rollout 70/146 | steps 143360 | train collisions (last 300 ep):   3.7% | std 0.536 | 162s
+[uncertainty_only s2] rollout 80/146 | steps 163840 | train collisions (last 300 ep):   2.0% | std 0.513 | 187s
+[uncertainty_only s2] rollout 90/146 | steps 184320 | train collisions (last 300 ep):   2.3% | std 0.500 | 210s
+[uncertainty_only s2] rollout 100/146 | steps 204800 | train collisions (last 300 ep):   0.7% | std 0.486 | 234s
+[uncertainty_only s2] rollout 110/146 | steps 225280 | train collisions (last 300 ep):   2.0% | std 0.471 | 257s
+[uncertainty_only s2] rollout 120/146 | steps 245760 | train collisions (last 300 ep):   3.3% | std 0.451 | 281s
+[uncertainty_only s2] rollout 130/146 | steps 266240 | train collisions (last 300 ep):   1.0% | std 0.432 | 304s
+[uncertainty_only s2] rollout 140/146 | steps 286720 | train collisions (last 300 ep):   1.0% | std 0.427 | 328s
+[uncertainty_only s2] rollout 146/146 | steps 299008 | train collisions (last 300 ep):   1.7% | std 0.422 | 340s
+Saved model to C:\Users\meena\Downloads\cosmaegis-rl (1)\cosmaegis-rl\results\ppo_uncertainty_only_s2.pt
+
+500 test episodes
+
+policy                          collisions  near-miss  avg fuel  avg steps
+PPO uncertainty_only (seed 2)         1.8%       1.2%      2.48        3.0
+
+Appended result to C:\Users\meena\Downloads\cosmaegis-rl (1)\cosmaegis-rl\results\ppo_results.csv

@@ -1,0 +1,24 @@
+Training PPO variant=baseline seed=3 steps=300000 dropout=0.2
+[baseline s3] rollout 10/146 | steps 20480 | train collisions (last 300 ep):   9.3% | std 0.613 | 19s
+[baseline s3] rollout 20/146 | steps 40960 | train collisions (last 300 ep):   7.0% | std 0.615 | 38s
+[baseline s3] rollout 30/146 | steps 61440 | train collisions (last 300 ep):   2.3% | std 0.596 | 57s
+[baseline s3] rollout 40/146 | steps 81920 | train collisions (last 300 ep):   4.0% | std 0.590 | 76s
+[baseline s3] rollout 50/146 | steps 102400 | train collisions (last 300 ep):   2.7% | std 0.561 | 96s
+[baseline s3] rollout 60/146 | steps 122880 | train collisions (last 300 ep):   4.3% | std 0.567 | 116s
+[baseline s3] rollout 70/146 | steps 143360 | train collisions (last 300 ep):   1.3% | std 0.561 | 136s
+[baseline s3] rollout 80/146 | steps 163840 | train collisions (last 300 ep):   3.3% | std 0.576 | 156s
+[baseline s3] rollout 90/146 | steps 184320 | train collisions (last 300 ep):   4.0% | std 0.563 | 175s
+[baseline s3] rollout 100/146 | steps 204800 | train collisions (last 300 ep):   2.7% | std 0.533 | 195s
+[baseline s3] rollout 110/146 | steps 225280 | train collisions (last 300 ep):   3.3% | std 0.514 | 215s
+[baseline s3] rollout 120/146 | steps 245760 | train collisions (last 300 ep):   3.3% | std 0.502 | 235s
+[baseline s3] rollout 130/146 | steps 266240 | train collisions (last 300 ep):   4.0% | std 0.476 | 255s
+[baseline s3] rollout 140/146 | steps 286720 | train collisions (last 300 ep):   3.0% | std 0.462 | 275s
+[baseline s3] rollout 146/146 | steps 299008 | train collisions (last 300 ep):   3.3% | std 0.451 | 284s
+Saved model to C:\Users\meena\Downloads\cosmaegis-rl (1)\cosmaegis-rl\results\ppo_baseline_s3.pt
+
+500 test episodes
+
+policy                          collisions  near-miss  avg fuel  avg steps
+PPO baseline (seed 3)                 1.8%       1.4%      2.78        2.5
+
+Appended result to C:\Users\meena\Downloads\cosmaegis-rl (1)\cosmaegis-rl\results\ppo_results.csv

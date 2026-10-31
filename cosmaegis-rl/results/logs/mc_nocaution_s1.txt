@@ -1,0 +1,24 @@
+Training PPO variant=mc_nocaution seed=1 steps=300000 dropout=0.2
+[mc_nocaution s1] rollout 10/146 | steps 20480 | train collisions (last 300 ep):   6.0% | std 0.590 | 36s
+[mc_nocaution s1] rollout 20/146 | steps 40960 | train collisions (last 300 ep):   4.7% | std 0.568 | 73s
+[mc_nocaution s1] rollout 30/146 | steps 61440 | train collisions (last 300 ep):   2.7% | std 0.552 | 110s
+[mc_nocaution s1] rollout 40/146 | steps 81920 | train collisions (last 300 ep):   2.7% | std 0.555 | 148s
+[mc_nocaution s1] rollout 50/146 | steps 102400 | train collisions (last 300 ep):   3.0% | std 0.525 | 184s
+[mc_nocaution s1] rollout 60/146 | steps 122880 | train collisions (last 300 ep):   1.7% | std 0.520 | 228s
+[mc_nocaution s1] rollout 70/146 | steps 143360 | train collisions (last 300 ep):   0.7% | std 0.511 | 281s
+[mc_nocaution s1] rollout 80/146 | steps 163840 | train collisions (last 300 ep):   0.3% | std 0.492 | 336s
+[mc_nocaution s1] rollout 90/146 | steps 184320 | train collisions (last 300 ep):   1.7% | std 0.486 | 390s
+[mc_nocaution s1] rollout 100/146 | steps 204800 | train collisions (last 300 ep):   3.3% | std 0.474 | 445s
+[mc_nocaution s1] rollout 110/146 | steps 225280 | train collisions (last 300 ep):   1.7% | std 0.457 | 499s
+[mc_nocaution s1] rollout 120/146 | steps 245760 | train collisions (last 300 ep):   2.0% | std 0.451 | 554s
+[mc_nocaution s1] rollout 130/146 | steps 266240 | train collisions (last 300 ep):   1.0% | std 0.420 | 609s
+[mc_nocaution s1] rollout 140/146 | steps 286720 | train collisions (last 300 ep):   0.3% | std 0.402 | 664s
+[mc_nocaution s1] rollout 146/146 | steps 299008 | train collisions (last 300 ep):   0.7% | std 0.394 | 697s
+Saved model to C:\Users\meena\Downloads\cosmaegis-rl (1)\cosmaegis-rl\results\ppo_mc_nocaution_s1.pt
+
+500 test episodes
+
+policy                          collisions  near-miss  avg fuel  avg steps
+PPO mc_nocaution (seed 1)             0.4%       1.6%      2.87        2.5
+
+Appended result to C:\Users\meena\Downloads\cosmaegis-rl (1)\cosmaegis-rl\results\ppo_results.csv
